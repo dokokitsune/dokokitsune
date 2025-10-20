@@ -29,7 +29,9 @@
 
 ###
 
-<p align="left">I am from San Gabriel, California and I have recently graduated from California State University, Los Angeles with a Bachelor's of Science in Computer Science. I love CI/CD pipelines and infrastructure and making sure that they are efficient and reliable.<br><br>One of my current projects I love to work on is applying a high scalability and reliability workflow to my portfolio website. Currently I have it running on multiple pods in a Kubernetes cluster. Within the cluster, I utililized Flux CD to create a Gitops pipeline. On a git push, Github Actions will build a docker image, then upload it to GHCR. After it is uploaded, Flux CD detects that there is a newer version in GHCR than the pods deployed. Finally, Flux CD downloads the latest images and redeploys with newest images.<br><br>Currently I am looking for Cloud or Site Reliability Engineer Positions.</p>
+<p align="left">I am from San Gabriel, California and I have recently graduated from California State University, Los Angeles with a Bachelor's of Science in Computer Science. I love CI/CD pipelines, Kubernetes and infrastructure and making sure that they are efficient and reliable.<br><br>Currently, I host a 6 node Kubernetes cluster on my VM home server with Incus as my hypervisor. My cluster is managed by FluxCD, my favorite GitOps tool for the platform, and host various applications like Hashicorp Vault, Cilium as an CNI, and a CSI driver called Democratic CSI to utilize my TrueNAS instance as PVC storage. My first Kubernetes project was with K3s where I hosted my portfolio website and created a CI/CD pipeline where I synced deployments with its Github repository with Github Actions, GHCR and FluxCD. All my Kubernetes, CI/CD, and AWS knowledge is mostly self-taught and I am very passionate with all the projects I work one. <br><br>Currently I am looking for DevOps, Cloud, or Site Reliability Engineer Positions.</p>
+
+
 
 ###
 
